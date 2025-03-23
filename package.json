@@ -4,7 +4,7 @@
     "build": "next build",
     "dev": "next dev --turbopack",
     "start": "next start",
-    "vercel-build": "pnpm approve-builds && next build"
+    "vercel-build": "pnpm approve-builds bcrypt sharp --if-needed && next build"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
